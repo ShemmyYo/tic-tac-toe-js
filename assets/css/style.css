@@ -17,6 +17,8 @@ body {
     Logo
 --------------------- */
 h1 {
+    width: 320px;
+    margin: 0 auto;
     min-height: 276px;
     text-align: center;
     margin-top: 1vh;
@@ -61,7 +63,7 @@ h1 {
       transform: scale(1);
       rotate: -15deg;
       translate: -100px ;
-      transform: translateY(40px);
+      transform: translateY(30px);
       color: red;
       
     }
@@ -108,7 +110,7 @@ h1 {
       transform: scale(1);
       rotate: -15deg;
       translate: 95px ;
-      transform: translateY(-40px) ;
+      transform: translateY(-30px) ;
       color: green;
     }
   }
