@@ -127,6 +127,9 @@ body {
     background-color: whitesmoke;
 }
 
+/* --------------------
+    Winning message
+--------------------- */
 .winning-message {
     display: none;
     position: fixed;
