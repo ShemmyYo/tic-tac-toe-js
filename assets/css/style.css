@@ -135,7 +135,7 @@ h1 {
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    background-color: whitesmoke;
+    background-color: white;
     border: 1px solid black;
     display: flex;
     justify-content: center;
