@@ -31,11 +31,13 @@ h1 {
 }
 
 #second{
+    width: 85%;
     animation: zoom-in-zoom-out-2 2s  ease forwards;
     font-size: 250%;  
 }
 
 #third{
+    width: 70%;
     animation: zoom-in-zoom-out-3 3s ease-in forwards;
     font-size: 250%;
 }
@@ -59,7 +61,7 @@ h1 {
       transform: scale(1);
       rotate: -15deg;
       translate: -100px ;
-      transform: translateY(80px);
+      transform: translateY(40px);
       color: red;
       
     }
@@ -82,8 +84,8 @@ h1 {
     100% {
       transform: scale(1);
       rotate: -15deg;
-      translate: -20px ;
-      transform: translateY(10px) ;
+      translate: -10px ;
+      transform: translateY(0px) ;
       color: blue;
     }
   }
@@ -106,7 +108,7 @@ h1 {
       transform: scale(1);
       rotate: -15deg;
       translate: 95px ;
-      transform: translateY(-68px) ;
+      transform: translateY(-40px) ;
       color: green;
     }
   }
@@ -239,12 +241,12 @@ h1 {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     flex-direction: column;
 }
 
 .winning-message button {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: white;
     border-color: black;
     padding: .25rem .5rem;
